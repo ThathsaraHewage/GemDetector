@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'LED/LED.dart';
 import 'animation_screen.dart';
 import 'Home/home_page.dart';
 
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: MyHomePage(),
+     // home: MyHomePage(),
+       home: LEDonoff(),
     );
   }
 }
